@@ -1,10 +1,10 @@
 module.exports = wallaby => ({
   files: [
     'src/**/*.ts',
-    {pattern: 'helpers/*.ts', instrument: false}
+    {pattern: 'spec/helpers/*.ts', instrument: false}
   ],
 
-  tests: ['specs/**/*-spec.ts'],
+  tests: ['spec/**/*-spec.ts'],
   compilers: {
     '**/*.ts': wallaby.compilers.typeScript({
       module: 1,  // commonjs
@@ -16,7 +16,7 @@ module.exports = wallaby => ({
   },
   testFramework: 'jasmine',
   setup: function (wallaby) {
-    require('./helpers/test-helper'); 
-    require('./helpers/ajax-helper');
+    require('./spec/helpers/test-helper'); 
+    require('./spec/helpers/ajax-helper');
   }
 });
