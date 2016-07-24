@@ -17,5 +17,6 @@ module.exports = wallaby => ({
   testFramework: 'jasmine',
   setup: function (wallaby) {
     require('./helpers/test-helper'); 
+    require('./helpers/ajax-helper');
   }
 });
