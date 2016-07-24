@@ -1,7 +1,7 @@
 {
   "name": "rxjs-marble-testing",
   "version": "1.0.0",
-  "description": "minimal marble testing setup with wallabyjs",
+  "description": "Minimal marble testing setup with wallabyjs",
   "main": "index.js",
   "scripts": {},
   "keywords": [
