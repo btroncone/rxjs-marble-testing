@@ -1,6 +1,6 @@
 #RxJS Minimal Marble Testing Setup w/ WallabyJS
 
-Minimal setup to start utilizing marble testing.
+Minimal setup to start utilizing [marble testing](https://github.com/ReactiveX/rxjs/blob/master/doc/writing-marble-tests.md).
 
 ### Getting Started
 
